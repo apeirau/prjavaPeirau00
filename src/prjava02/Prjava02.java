@@ -13,12 +13,26 @@ import java.net.*;
  */
 public class Prjava02 {
 
+    // Versio 1 del projecte prjavaPeirau02
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+<<<<<<< HEAD
         System.out.println("versió 0.1 del projecte prjava02");
         // Comentario añadido. 	
+=======
+        System.out.println("versió 0.1 del projecte prjava02"); 
+        System.out.println("Creació d'una branca del projecte prjavaPeirau02");	
+        System.out.println("Nova creació d'una branca del projecte prjavaPeirau02");	
+        // Comentario añadido y nuevo en Branca00 directamente.
+
+        System.out.println("Afegint més codi a la branca00 del projecte prjavaCognom02");
+
+
+
+>>>>>>> branca00
         try {
             InetAddress adreça = InetAddress.getLocalHost();
             String hostname = adreça.getHostName();
